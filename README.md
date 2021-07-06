@@ -33,10 +33,10 @@
 
 ### Data required
 Simulated precipitation (as NetCDF) files from:
-* IPSL Vlr CM5 (reference: Dufresne et al. 2013, https://doi.org/10.1007/s00382-012-1636-1)
-* IPSL Sr CM6 (reference: Braconnot et al. 2019, https://doi.org/10.5194/cp-15-997-2019)
-* AWI (reference: Sidorenko et al. 2019, https://doi.org/10.1029/2019MS001696)
-* MPI (reference: Dallmeyer et al. 2020, https://doi.org/10.5194/cp-16-117-2020)
+* IPSL Vlr CM5 (reference: [Dufresne et al. 2013](https://doi.org/10.1007/s00382-012-1636-1))
+* IPSL Sr CM6 (reference: [Braconnot et al. 2019](https://doi.org/10.5194/cp-15-997-2019))
+* AWI (reference: [Sidorenko et al. 2019](https://doi.org/10.1029/2019MS001696))
+* MPI (reference: [Dallmeyer et al. 2020](https://doi.org/10.5194/cp-16-117-2020))
 
 ### Code:
 * "reshape_MPI_AWI.R" loads and reshapes MPI and AWI data so that longitude = -180 -> 180, and variable names match the IPSL. Processed data is saved as new NetCDF files.
